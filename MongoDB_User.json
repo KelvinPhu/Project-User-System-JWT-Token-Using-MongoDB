@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "65f86ac57a253a18e7240788"
+  },
+  "username": "RynaPhan",
+  "email": "rynaphan260298@gmail.com",
+  "password": "$2a$10$kXOSe8lGeq.0M/QU2yLsAOXffGuohsxB4cI.DmX3WkERbp/IPwpcC",
+  "role": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "65f868439167342dcea1c232"
+      }
+    }
+  ],
+  "_class": "com.project.user_system.jwt_token_mongoDB.ProjectJWTTokenMongoDB.model.User"
+},
+{
+  "_id": {
+    "$oid": "65f86aef7a253a18e7240789"
+  },
+  "username": "Kelvin",
+  "email": "kelvin123@gmail.com",
+  "password": "$2a$10$Q/nNK/H3Hsxy.mKIAkWNeu7FqwuYko8IrNC7Vs6v0uYrbF0IzT4vO",
+  "role": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "65f868389167342dcea1c230"
+      }
+    },
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "65f868249167342dcea1c22e"
+      }
+    }
+  ],
+  "_class": "com.project.user_system.jwt_token_mongoDB.ProjectJWTTokenMongoDB.model.User"
+},
+{
+  "_id": {
+    "$oid": "65f86b067a253a18e724078a"
+  },
+  "username": "kathy",
+  "email": "kathy123@gmail.com",
+  "password": "$2a$10$rKV7m6cHC.n5J.YeF1ne6uI9ZJizxkvKzd2jMmtReFKupWjRe9W5i",
+  "role": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "65f868249167342dcea1c22e"
+      }
+    }
+  ],
+  "_class": "com.project.user_system.jwt_token_mongoDB.ProjectJWTTokenMongoDB.model.User"
+}]
